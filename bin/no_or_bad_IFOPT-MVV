@@ -1,33 +1,13 @@
 /*
 
-de:09162
-de:09173
-de:09174
-de:09175
-de:09177
-de:09178
-de:09179
-de:09181
-de:09183
-de:09184
-de:09186
-de:09187
-de:09188
-de:09190
-de:09273
-de:09771
-gen:9173
-gen:9174
-gen:9175
-gen:9177
-gen:9178
-gen:9179
-gen:9181
-gen:9183
-gen:9184
-gen:9186
-gen:9188
-gen:9771
+Apply this in the area around Munich, Germany - the area of the "Münchner Verkehrs- und Tarifverbund"
+
+Searching for Public Transport Platforms without ref:IFOPT or with formal errors in ref:IFOPT values
+Searching for Public Transport Stop-Positions/Stop-Areas with formal errors in ref:IFOPT values
+
+
+de:09162, de:09173, de:09174, de:09175, de:09177, de:09178, de:09179, de:09181, de:09183, de:09184, de:09186, de:09187, de:09188, de:09190, de:09273, de:09771
+          gen:9173, gen:9174, gen:9175, gen:9177,           gen:9179, gen:9181, gen:9183, gen:9184, gen:9186,           gen:9188,                     gen:9771
 
 
 */
