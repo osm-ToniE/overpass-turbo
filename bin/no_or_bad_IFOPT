@@ -7,7 +7,7 @@
   way     ["public_transport"='platform']                      ["ref:IFOPT"!~"^.*\:.*\:.*\:.*\:.*$"]                    ({{bbox}});
   relation["public_transport"='platform']                      ["ref:IFOPT"!~"^.*\:.*\:.*\:.*\:.*$"]                    ({{bbox}});
   relation["public_transport"='stop_area']    ["ref:IFOPT"~"."]["ref:IFOPT"!~"^(.*\:.*\:.*)|(.*\:.*\:.*\:.*)$"]         ({{bbox}});
-  node    ["public_transport"='stop_position']["ref:IFOPT"~"."]["ref:IFOPT"!~"^(.*\:.*\:.*\:.*\:.*)|(.*\:.*\:.*\:.*)$"] ({{bbox}}); 
+  node    ["public_transport"='stop_position']["ref:IFOPT"~"."]["ref:IFOPT"!~"^(.*\:.*\:.*\:.*\:.*)|(.*\:.*\:.*\:.*)|(.*\:.*\:.*\:.*)$"] ({{bbox}}); 
 );
 out body;
 >;
