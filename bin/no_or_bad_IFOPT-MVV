@@ -17,7 +17,7 @@ de:09162, de:09173, de:09174, de:09175, de:09177, de:09178, de:09179, de:09181, 
   way     ["public_transport"='platform']                      ["ref:IFOPT"!~"^(de\:0)|(gen\:)9(162)|(173)|(174)|(175)|(177)|(178)|(179)|(181)|(183)|(184)|(186)|(187)|(188)|(190)|(273)|(771)\:.*\:.*\:.*$"]        ({{bbox}});
   relation["public_transport"='platform']                      ["ref:IFOPT"!~"^(de\:0)|(gen\:)9(162)|(173)|(174)|(175)|(177)|(178)|(179)|(181)|(183)|(184)|(186)|(187)|(188)|(190)|(273)|(771)\:.*\:.*\:.*$"]       ({{bbox}});
   relation["public_transport"='stop_area']    ["ref:IFOPT"~"."]["ref:IFOPT"!~"^(.*\:.*\:.*)|(.*\:.*\:.*\:.*)$"]          ({{bbox}});
-  node    ["public_transport"='stop_position']["ref:IFOPT"~"."]["ref:IFOPT"!~"^(.*\:.*\:.*\:.*\:.*)|(.*\:.*\:.*\:.*)$"]  ({{bbox}}); 
+  node    ["public_transport"='stop_position']["ref:IFOPT"~"."]["ref:IFOPT"!~"^(.*\:.*\:.*\:.*\:.*)|(.*\:.*\:.*\:.*)|(.*\:.*\:.*)$"]  ({{bbox}}); 
 );
 out body;
 >;
